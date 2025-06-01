@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Recipe Master</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/958bc93a6e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+  <nav class="navbar">
+    <div class="logo">Recipe Master</div>
+    <div class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+  
+      <li><a href="Recipe.html">Recipe</a></li>
+    </ul>
+  </nav>
+
+<section class="about-section">
+  <h2>About Recipe Master</h2>
+  <p>Welcome to <strong>Recipe Master</strong>, your go-to app for discovering delicious, easy-to-make recipes from around the world. Whether you're a beginner or a seasoned cook, our app provides step-by-step guides to help you create amazing meals.</p>
+  
+  <p>Our mission is to inspire and empower you to cook with confidence and explore new flavors. We carefully curate recipes with clear instructions and ingredients so that cooking is always fun and rewarding.</p>
+  
+  <p>Feel free to browse our collection, save your favorite dishes, and enjoy cooking!</p>
+
+  <p>Here’s what you can do with our app:</p>
+
+  <ul class="features-list">
+    <li><i class="fa-solid fa-book-open"></i> Browse a growing collection of easy-to-follow recipes.</li>
+
+    <li><i class="fa-solid fa-magnifying-glass"></i> Search for recipes by name or ingredients.</li>
+    <li><i class="fa-solid fa-cart-shopping"></i> Create your own custom shopping list (coming soon!).</li>
+  
+  </ul>
+
+  <p><b>Happy cooking! </b></p>
+</section>
+<script>
+  document.getElementById('hamburger').addEventListener('click', function () {
+  document.getElementById('navLinks').classList.toggle('show');
+});
+</script>
+  </body>
+</html>
